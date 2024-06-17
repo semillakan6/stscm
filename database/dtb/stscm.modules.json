@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "650deb89563be85012627105"
+  },
+  "route": "dashboard",
+  "status": 1,
+  "relation": "NULL",
+  "order_index": 1,
+  "name": "Inicio"
+},
+{
+  "_id": {
+    "$oid": "650deb89563be85012627106"
+  },
+  "route": "users",
+  "status": 1,
+  "relation": "administration",
+  "order_index": 2,
+  "name": "Usuarios"
+},
+{
+  "_id": {
+    "$oid": "6511e7f7563be8501262711b"
+  },
+  "route": "security",
+  "status": 1,
+  "relation": "administration",
+  "order_index": 3,
+  "name": "Seguridad y Accesos"
+},
+{
+  "_id": {
+    "$oid": "65284cf93d4f6a1047a60878"
+  },
+  "route": "dependence_window",
+  "status": 1,
+  "relation": "administration",
+  "order_index": 1,
+  "name": "Ventana de Dependencias"
+},
+{
+  "_id": {
+    "$oid": "6528530d3d4f6a1047a6087b"
+  },
+  "route": "administration",
+  "status": 1,
+  "relation": "0",
+  "order_index": 5,
+  "name": "Administración"
+},
+{
+  "_id": {
+    "$oid": "65298f68cb627355a1391676"
+  },
+  "route": "dependence",
+  "status": 1,
+  "relation": "administration",
+  "order_index": 4,
+  "name": "Dependencias"
+},
+{
+  "_id": {
+    "$oid": "65b2b72b816c72207c3b18d2"
+  },
+  "route": "logs_info",
+  "status": 1,
+  "relation": "administration",
+  "order_index": 4,
+  "name": "Logs"
+}]

@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "650dea61563be85012627100"
+  },
+  "name": "dashboard",
+  "description": "Apartado Dashboard",
+  "status": 1,
+  "icon": "<i class=\"fas fa-home\"></i>",
+  "module": "dashboard"
+},
+{
+  "_id": {
+    "$oid": "650dea61563be85012627101"
+  },
+  "name": "user_permissions",
+  "description": "Acceso al Sistema",
+  "status": 1,
+  "icon": "<i class=\"fas fa-users\"></i>"
+},
+{
+  "_id": {
+    "$oid": "650dea61563be85012627102"
+  },
+  "name": "create_user_permissions",
+  "description": "Creación de Usuarios",
+  "status": 1,
+  "icon": "<i class=\"fas fa-user-plus\"></i>"
+},
+{
+  "_id": {
+    "$oid": "650dea61563be85012627103"
+  },
+  "name": "user_window",
+  "description": "Apartado Usuarios",
+  "status": 1,
+  "icon": "<i class=\"fas fa-users\"></i>",
+  "module": "users"
+},
+{
+  "_id": {
+    "$oid": "6511e753563be85012627119"
+  },
+  "name": "security_window",
+  "description": "Apartado Seguridad y Accesos",
+  "status": 1,
+  "icon": "<i class='fas fa-user-lock'></i>",
+  "module": "security"
+},
+{
+  "_id": {
+    "$oid": "652853a43d4f6a1047a6087f"
+  },
+  "name": "administration_section",
+  "description": "Administración",
+  "status": 1,
+  "icon": "<i class=\"fas fa-cog\"></i>",
+  "module": "administration"
+},
+{
+  "_id": {
+    "$oid": "6539559d3d4f6a1047a6089f"
+  },
+  "name": "dependence_window",
+  "description": "Apartado Dependencias",
+  "status": 1,
+  "icon": "<i class=\"fas fa-users\"></i>",
+  "module": "dependence"
+},
+{
+  "_id": {
+    "$oid": "65b2b712816c72207c3b18d0"
+  },
+  "name": "logs_permisions",
+  "description": "Logs del sistema",
+  "status": 1,
+  "icon": "<i class='fas fa-exclamation-circle'></i>",
+  "module": "logs_info"
+}]

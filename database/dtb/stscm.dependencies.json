@@ -1,0 +1,565 @@
+[{
+  "_id": {
+    "$oid": "65650834c4a5f76eae00c174"
+  },
+  "name": "Contraloria Municipal",
+  "active": "ON",
+  "status": "1",
+  "tag": "CM",
+  "updated_at": {
+    "$date": "2024-02-27T16:50:26.857Z"
+  },
+  "created_at": {
+    "$date": "2023-11-27T21:20:52.559Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "656f6b0d9fe4c2725c097a5c"
+      },
+      "area_name": "Jefatura del Area de Soporte Tecnico",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65d513ac28ba03717c044e12"
+      },
+      "area_name": "Coordinación Administrativa",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de0eb328ba03717c044e5d"
+      },
+      "area_name": "Dirección de Auditoria de Obras Públicas",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de12e328ba03717c044e64"
+      },
+      "area_name": "Dierección de Auditoria",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de12fb28ba03717c044e65"
+      },
+      "area_name": "Dirección de Funsión Pública Municipal",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de132928ba03717c044e66"
+      },
+      "area_name": "Dirección de Substanciación ",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de134528ba03717c044e67"
+      },
+      "area_name": "Contralorias Interna de Seguridad Pública",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de137b28ba03717c044e68"
+      },
+      "area_name": "Contraloría Interna de la Secretaría de Obras Públicas y Servicios",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c66c9df845abb51b0a199f"
+  },
+  "name": "Taller Municipal",
+  "active": "ON",
+  "status": "1",
+  "tag": "TM",
+  "updated_at": {
+    "$date": "2024-02-20T21:02:48.473Z"
+  },
+  "created_at": {
+    "$date": "2024-02-09T18:19:09.984Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65c66cc1f845abb51b0a19a0"
+      },
+      "area_name": "Oficina del Taller Municipal",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dcca1328ba03717c044e43"
+  },
+  "name": "Secretaría Municipal De Obras Públicas Y Servicios",
+  "active": "ON",
+  "status": "1",
+  "tag": "SMDOPYS",
+  "updated_at": {
+    "$date": "2024-03-06T16:49:51.906Z"
+  },
+  "created_at": {
+    "$date": "2024-02-26T17:27:47.488Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65dcca2828ba03717c044e47"
+      },
+      "area_name": "Dirección de Bacheo y Pipas",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65dcca3c28ba03717c044e48"
+      },
+      "area_name": "Dirección de Atención a Demandas Emergentes",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65dcca5f28ba03717c044e49"
+      },
+      "area_name": "Dirección de Parques y Áreas Jardinadas",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65dcca8d28ba03717c044e4b"
+      },
+      "area_name": "Dirección de Pozos y Limpieza de Playas",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65dcf18128ba03717c044e58"
+      },
+      "area_name": "Dirección de Alumbrado Público",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65dcf1af28ba03717c044e59"
+      },
+      "area_name": "Dirección de Supervisión del Sistema de Limpia",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65dcf1d728ba03717c044e5a"
+      },
+      "area_name": "Dirección Operativa",
+      "status": 0
+    },
+    {
+      "_id": {
+        "$oid": "65de0fd628ba03717c044e5e"
+      },
+      "area_name": "Dirección Operativa",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de47089720a23c10035ae2"
+      },
+      "area_name": "Coordinación de Inspección",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89f019720a23c10035bb9"
+      },
+      "area_name": "Oficina del Secretario",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89f2e9720a23c10035bba"
+      },
+      "area_name": "Dirección General de Servicios Públicos Municipales",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89f8a9720a23c10035bbb"
+      },
+      "area_name": "Coordinación Administrativa ",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dccacc28ba03717c044e4d"
+  },
+  "name": "Oficialía Mayor",
+  "active": "ON",
+  "status": "1",
+  "tag": "OM",
+  "updated_at": {
+    "$date": "2024-03-06T17:01:35.137Z"
+  },
+  "created_at": {
+    "$date": "2024-02-26T17:30:52.420Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65de100a28ba03717c044e5f"
+      },
+      "area_name": "Dirección de Recursos Humanos",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de102128ba03717c044e60"
+      },
+      "area_name": "Dirección de Recursos Materiales",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de103028ba03717c044e61"
+      },
+      "area_name": "Dirección de Patrimonio Municipal",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de105e28ba03717c044e62"
+      },
+      "area_name": "Dirección del Instituto de Capacitación en Calidad",
+      "status": 0
+    },
+    {
+      "_id": {
+        "$oid": "65de107728ba03717c044e63"
+      },
+      "area_name": "Dirección de Servicios Generales",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65de145428ba03717c044e69"
+  },
+  "name": "Dirección General De Obras Públicas",
+  "active": "ON",
+  "status": "1",
+  "tag": "DGDOP",
+  "updated_at": {
+    "$date": "2024-02-27T16:56:52.164Z"
+  },
+  "created_at": {
+    "$date": "2024-02-27T16:56:52.164Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65de146828ba03717c044e6b"
+      },
+      "area_name": "Dirección de Proyectos",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de147f28ba03717c044e6c"
+      },
+      "area_name": "Dirección de Licitaciones y Contratos",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de14a128ba03717c044e6d"
+      },
+      "area_name": "Dirección de Construcción",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65de14b828ba03717c044e6e"
+      },
+      "area_name": "Dirección de Control y seguimiento de Obra",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65e220359720a23c10035b4c"
+  },
+  "name": "Dif Municipal",
+  "active": "OFF",
+  "status": "1",
+  "tag": "DM",
+  "updated_at": {
+    "$date": "2024-03-01T19:04:27.215Z"
+  },
+  "created_at": {
+    "$date": "2024-03-01T18:36:37.176Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e220439720a23c10035b4e"
+  },
+  "name": "Dirección De Catastro",
+  "active": "OFF",
+  "status": "1",
+  "tag": "DDC",
+  "updated_at": {
+    "$date": "2024-03-01T19:16:10.815Z"
+  },
+  "created_at": {
+    "$date": "2024-03-01T18:36:51.363Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e227909720a23c10035b58"
+  },
+  "name": "Tesoreria Municipal",
+  "active": "ON",
+  "status": "1",
+  "tag": "TM1",
+  "updated_at": {
+    "$date": "2024-03-01T19:20:24.596Z"
+  },
+  "created_at": {
+    "$date": "2024-03-01T19:08:00.680Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65e227ab9720a23c10035b5a"
+      },
+      "area_name": "Dirección de Catastro Municipal",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e229919720a23c10035b5c"
+      },
+      "area_name": "Dirección de Catastro Municipal",
+      "status": 0
+    },
+    {
+      "_id": {
+        "$oid": "65e8a0459720a23c10035bbd"
+      },
+      "area_name": "Dirección de Egresos",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e8a0549720a23c10035bbe"
+      },
+      "area_name": "Dirección de Ingresos",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e8a0619720a23c10035bbf"
+      },
+      "area_name": "Dirección de Contabilidad",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e8a0709720a23c10035bc0"
+      },
+      "area_name": "Dirección de Fiscalización ",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e8a0b09720a23c10035bc1"
+      },
+      "area_name": "Dirección de Ingresos Coordinados y Cobranzas",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e8a0bf9720a23c10035bc2"
+      },
+      "area_name": "Dirección Financiera",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65e229d89720a23c10035b5d"
+  },
+  "name": "Presidencia Municipal",
+  "active": "ON",
+  "status": "1",
+  "tag": "PM",
+  "updated_at": {
+    "$date": "2024-03-01T19:17:44.910Z"
+  },
+  "created_at": {
+    "$date": "2024-03-01T19:17:44.910Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65e22a2d9720a23c10035b5f"
+      },
+      "area_name": "DIF Municipal",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e762cb9720a23c10035b99"
+      },
+      "area_name": "Solución Integral de Residuos Sólidos",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e7630a9720a23c10035b9a"
+      },
+      "area_name": "Instituto de la Cultura y las Artes",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89d849720a23c10035ba7"
+      },
+      "area_name": "Asociación de Fútbol Pioneros A.C",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89d9a9720a23c10035ba8"
+      },
+      "area_name": "Instituto Municipal de Desarrollo Administrativo e Innovación",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89da69720a23c10035ba9"
+      },
+      "area_name": "Instituto Municipal de la Mujer",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89db19720a23c10035baa"
+      },
+      "area_name": "Instituto de Planeación para el Desarrollo Urbano Municipal",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89dc79720a23c10035bad"
+      },
+      "area_name": "Instituto Municipal del Deporte",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89dd79720a23c10035bae"
+      },
+      "area_name": "Dirección de Relaciones Públicas",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89de19720a23c10035baf"
+      },
+      "area_name": "Dirección General de Comunicación Social",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89deb9720a23c10035bb0"
+      },
+      "area_name": "Operadora y Administradora de Bienes Municipales ",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89df39720a23c10035bb2"
+      },
+      "area_name": "Dirección de Gestión Social",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89dfb9720a23c10035bb3"
+      },
+      "area_name": "Unidad de Transparencia, Acceso a la Información Pública y Protección de Datos Personales",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89e059720a23c10035bb4"
+      },
+      "area_name": "Dirección General de Radio Cultural Ayuntamiento",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89e109720a23c10035bb5"
+      },
+      "area_name": "Instituto Municipal Contra las Adicciones",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89e2b9720a23c10035bb6"
+      },
+      "area_name": "Unidad de Vinculación con Organismos Descentralizados",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e89e339720a23c10035bb7"
+      },
+      "area_name": "Instituto Municipal de la Juventud",
+      "status": "1"
+    },
+    {
+      "_id": {
+        "$oid": "65e8a1af9720a23c10035bc3"
+      },
+      "area_name": "Dirección del Instituto de Capacitación en Calidad",
+      "status": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ef5d5a9720a23c10035c28"
+  },
+  "name": "Secretaria General",
+  "active": "ON",
+  "status": "1",
+  "tag": "SG",
+  "updated_at": {
+    "$date": "2024-03-11T19:36:58.943Z"
+  },
+  "created_at": {
+    "$date": "2024-03-11T19:36:58.943Z"
+  },
+  "areas": [
+    {
+      "_id": {
+        "$oid": "65ef5d8c9720a23c10035c2a"
+      },
+      "area_name": "Dirección General del Heroico Cuerpo de Bomberos",
+      "status": "1"
+    }
+  ]
+}]

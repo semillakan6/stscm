@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "64f0e3969a9d365d6e042bd2"
+  },
+  "name": "Ing. Ruben Eduardo Cuevas Moreno",
+  "email": "semillakan6@hotmail.com",
+  "password": "$2y$10$kp3NurMwE1FZJrb97nR0OeFsQvVHTcaz.ZEK1dwX3noYgy61z4Ugy",
+  "updated_at": {
+    "$date": "2024-03-21T19:12:35.556Z"
+  },
+  "created_at": {
+    "$date": "2023-08-31T19:01:42.449Z"
+  },
+  "remember_token": "tmrfKIoMrOgu6G8zcjNiG7JdTYDdbyg5DmwAlnwynDWJvqGbTppQOHTrrIyk",
+  "role": "super-admin",
+  "username": "admin",
+  "dependence": "Contraloria Municipal",
+  "area": "Jefatura del Area de Soporte Tecnico"
+},
+{
+  "_id": {
+    "$oid": "65aae279f9521dbf00051c92"
+  },
+  "name": "Johan Alberto Chin Palma",
+  "email": "johan_palma45@hotmail.com",
+  "password": "$2y$10$pJH6Ldxlx6SqgmStNQkEg.qv6A5vX2Kh/QMNRHq0tJ9QJ0kPb54ju",
+  "username": "johan",
+  "active": "ON",
+  "role": "super-admin",
+  "updated_at": {
+    "$date": "2024-03-21T19:12:48.018Z"
+  },
+  "created_at": {
+    "$date": "2024-01-19T20:58:33.576Z"
+  },
+  "dependence": "Contraloria Municipal",
+  "area": "Jefatura del Area de Soporte Tecnico"
+}]

@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "650b6055563be850126270ce"
+  },
+  "access_": 1,
+  "grant_": 1,
+  "status": 1,
+  "icon": "<i class='fas fa-user-tie'></i>",
+  "name": "admin",
+  "role": "Administrador",
+  "permissions": [
+    "dashboard",
+    "user_permissions"
+  ],
+  "updated_at": {
+    "$date": "2024-03-21T19:09:41.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b6055563be850126270d0"
+  },
+  "access_": 1,
+  "grant_": 0,
+  "status": 1,
+  "icon": "<i class='fas fa-user-check'></i>",
+  "name": "director",
+  "role": "Director",
+  "permissions": [
+    "user_permissions",
+    "dashboard"
+  ],
+  "updated_at": {
+    "$date": "2024-02-26T20:08:21.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b6055563be850126270d1"
+  },
+  "access_": 1,
+  "grant_": 0,
+  "status": 1,
+  "icon": "<i class='fas fa-user-check'></i>",
+  "name": "admin-link",
+  "role": "Enlace Administrativo",
+  "permissions": [
+    "dashboard",
+    "user_permissions"
+  ],
+  "updated_at": {
+    "$date": "2024-02-08T20:45:47.441Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b6055563be850126270d2"
+  },
+  "access_": 1,
+  "grant_": 0,
+  "status": 1,
+  "icon": "<i class='fas fa-headset'></i>",
+  "name": "super-admin",
+  "role": "Super Administrador",
+  "permissions": [
+    "dashboard",
+    "user_permissions",
+    "create_user_permissions",
+    "user_window",
+    "security_window",
+    "administration_section",
+    "dependence_window",
+    "logs_permisions"
+  ],
+  "updated_at": {
+    "$date": "2024-03-21T19:08:34.985Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d7a9e602e44179c6441927"
+  },
+  "access_": 1,
+  "status": 1,
+  "icon": "<i class='fab fa-galactic-senate'></i>",
+  "name": "jefe_taller",
+  "role": "Jefe de Almacen",
+  "permissions": [
+    "dashboard",
+    "user_permissions",
+    "logs_permisions"
+  ],
+  "grant": 0,
+  "updated_at": {
+    "$date": "2024-02-23T19:04:57.980Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d7ab7102e44179c6441928"
+  },
+  "access_": 1,
+  "status": 1,
+  "icon": "<i class='fas fa-wrench'></i>",
+  "name": "aux_taller",
+  "role": "Auxiliar de Almacen",
+  "permissions": [
+    "dashboard",
+    "user_permissions"
+  ],
+  "grant": 0,
+  "updated_at": {
+    "$date": "2024-02-23T15:07:33.427Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d8ebf74214f662673abfe3"
+  },
+  "access_": 1,
+  "status": 1,
+  "icon": "<i class='fas fa-user'></i>",
+  "name": "user",
+  "role": "Usuario",
+  "permissions": [
+    "dashboard",
+    "user_permissions"
+  ],
+  "grant": 0,
+  "updated_at": {
+    "$date": "2024-02-26T20:08:50.067Z"
+  }
+}]
