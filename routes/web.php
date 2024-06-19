@@ -8,6 +8,7 @@ use App\Livewire\Security;
 use App\Livewire\DependenciesController;
 use App\Livewire\DependenciesAreasController;
 use App\Livewire\LogsController;
+use App\Livewire\UsersSystem;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,6 +59,11 @@ Route::middleware([
         Route::get('/dependence', DependenciesController::class)->name('dependence');
         Route::get('AddAreas/{id?}', DependenciesAreasController::class)->name('AddAreas');
         Route::get('getAreas', [DependenciesAreasController::class, 'getAreas'])->name('getAreas');
+    });
+
+    Route::middleware(['auth', 'permission:usuarioschidos'])->group(function () {
+        Route::get('/users_system', UsersSystem::class)->name('users_system');
+
     });
     //Route::get('/users', [UsersController::class, 'index'])->name('users');
     /*Route::get('/users', function() {
