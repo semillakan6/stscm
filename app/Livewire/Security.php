@@ -74,7 +74,7 @@ class Security extends Component
             $role = Role::find($id);
             if ($role) {
                 $role->delete();
-                $this->dispatch('role-deleted', ['message' => 'Role deleted successfully!']); 
+                $this->dispatch('role-deleted', ['message' => 'Role deleted successfully!']);
             }
         }
     }

@@ -19,20 +19,24 @@
     <link href="https://cdn.datatables.net/2.0.8/css/dataTables.tailwindcss.css" rel="stylesheet" />
 
     <script src="{{ asset('assets/js/jquery-3.5.1.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.js"></script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireScripts
     @stack('scripts')
+
     <!-- Styles -->
     @livewireStyles
+
 </head>
 
 <body class="font-sans antialiased">
     <x-banner />
-
     <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-
         <!-- Page Heading -->
         <header class="bg-white shadow dark:bg-white sm:flex sm:h-16 sm:columns-2">
             <!-- Logo -->
@@ -45,17 +49,13 @@
                 <x-app-name />
             </div>
         </header>
-
         @livewire('navigation-menu')
-
         <!-- Page Content -->
         <main>
             {{ $slot }}
         </main>
     </div>
-
     @stack('modals')
-
 </body>
 
 </html>
