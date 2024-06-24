@@ -3,7 +3,9 @@
     <div class="navbar-start">
         <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 @foreach ($modules as $module)
@@ -17,11 +19,10 @@
                             })
                             ->contains(request()->route()->getName());
                         $isActive = $activeSubRoute || $moduleRoute === request()->route()->getName();
-                        $classes = $isActive ? 'btn-active' : '';
                     @endphp
                     @if ($module->status === 1 && $module->relation == '0' && $modulePermission && auth()->user()->hasPermission($modulePermission->name))
-                        <li class="{{ $classes }}">
-                            <details>
+                        <li>
+                            <details {{ $isActive ? 'open' : '' }}>
                                 <summary>
                                     {!! $purifier->purify($modulePermission->icon) !!}
                                     {{ __($module->name) }}
@@ -33,7 +34,7 @@
                                             $subModulePermission = $permissions->firstWhere('module', $subModuleRoute);
                                         @endphp
                                         @if ($subModule->status === 1 && $subModulePermission && auth()->user()->hasPermission($subModulePermission->name))
-                                            <li>
+                                            <li class="{{ request()->route()->getName() === $subModuleRoute ? 'btn-active' : '' }}">
                                                 <a href="{{ route($subModuleRoute) }}">
                                                     {!! $purifier->purify($subModulePermission->icon) !!}
                                                     {{ __($subModule->name) }}
@@ -45,7 +46,7 @@
                             </details>
                         </li>
                     @elseif ($module->status === 1 && $module->relation == 'NULL' && $modulePermission && auth()->user()->hasPermission($modulePermission->name))
-                        <li class="{{ $classes }}">
+                        <li class="{{ $isActive ? 'btn-active' : '' }}">
                             <a href="{{ route($moduleRoute) }}">
                                 {!! $purifier->purify($modulePermission->icon) !!}
                                 {{ __($module->name) }}
@@ -79,14 +80,14 @@
                                 {!! $purifier->purify($modulePermission->icon) !!}
                                 {{ __($module->name) }}
                             </summary>
-                            <ul class="p-2">
+                            <ul class="p-2 z-10">
                                 @foreach ($subModules as $subModule)
                                     @php
                                         $subModuleRoute = $subModule->route;
                                         $subModulePermission = $permissions->firstWhere('module', $subModuleRoute);
                                     @endphp
                                     @if ($subModule->status === 1 && $subModulePermission && auth()->user()->hasPermission($subModulePermission->name))
-                                        <li>
+                                        <li class="{{ request()->route()->getName() === $subModuleRoute ? 'btn-active' : '' }}">
                                             <a href="{{ route($subModuleRoute) }}">
                                                 {!! $purifier->purify($subModulePermission->icon) !!}
                                                 {{ __($subModule->name) }}
