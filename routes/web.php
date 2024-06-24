@@ -61,8 +61,9 @@ Route::middleware([
         Route::get('getAreas', [DependenciesAreasController::class, 'getAreas'])->name('getAreas');
     });
 
-    Route::middleware(['auth', 'permission:usuarioschidos'])->group(function () {
+    Route::middleware(['auth', 'permission:users_system'])->group(function () {
         Route::get('/users_system', UsersSystem::class)->name('users_system');
+        Route::get('/userstable', [UsersSystem::class, 'getUsersData'])->name('users_info');
 
     });
     //Route::get('/users', [UsersController::class, 'index'])->name('users');
