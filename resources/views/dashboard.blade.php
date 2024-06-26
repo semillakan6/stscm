@@ -1,22 +1,44 @@
 <x-app-layout>
     <div class="py-12">
         <div class="container mx-auto">
-            <div class="card bg-base-100 w-72 ">
-                <div class="card-body items-start text-start prose prose-slate pt-2 pb-2 pl-2">
-                    <h2 class="card-title mb-0 font-normal text-lg">
-                        <i class="fas fa-bullhorn"></i> Denuncias
-                    </h2>
-                    <p class="prose-strong text-2xl font-bold">0</p>
-                </div>
-            </div>
-            <div class="card lg:card-side bg-base-100 shadow-xl">
-
+            <div class="flex flex-wrap">
+                <x-area-card>
+                    @section('title')
+                        <i class="fas fa-bullhorn mr-2"></i> Denuncias
+                    @endsection
+                    @section('body-text')
+                        <p class="text-4xl font-bold">0</p>
+                    @endsection
+                </x-area-card>
+                <x-area-card>
+                    @section('title')
+                        <i class="fas fa-search mr-2"></i> Investigación
+                    @endsection
+                    @section('body-text')
+                        <p class="text-4xl font-bold">0</p>
+                    @endsection
+                </x-area-card>
+                <x-area-card>
+                    @section('title')
+                        <i class="fas fa-file-invoice mr-2"></i> Substanciación
+                    @endsection
+                    @section('body-text')
+                        <p class="text-4xl font-bold">0</p>
+                    @endsection
+                </x-area-card>
+                <x-area-card>
+                    @section('title')
+                        <i class="fas fa-balance-scale mr-2"></i> Resolución
+                    @endsection
+                    @section('body-text')
+                        <p class="text-4xl font-bold">0</p>
+                    @endsection
+                </x-area-card>
             </div>
         </div>
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+
+        </div>
     </div>
-    <script>
-        let table = new DataTable('#myTable', {
-            // config options...
-        });
-    </script>
+    </div>
 </x-app-layout>
