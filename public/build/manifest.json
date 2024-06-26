@@ -60,12 +60,12 @@
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BbZmtqLw.css",
+    "file": "assets/app-D4eBp-My.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-BT7YJgoF.js",
+    "file": "assets/app-BHwAYPFs.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

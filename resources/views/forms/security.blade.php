@@ -1,7 +1,7 @@
 <div class="py-12">
     <div class="max-w-7xl mx-auto">
-        <div class="bg-white dark:bg-white shadow-xl rounded-lg">
-            <div class="bg-white dark:bg-white border-b border-gray-200 dark:border-gray-700 rounded-lg">
+        <div class="card bg-base-100 card-bordered shadow-xl rounded-lg">
+            <div class="rounded-lg">
                 <div class="p-6 lg:p-8">
                     <div class="container">
                         <div class="row">

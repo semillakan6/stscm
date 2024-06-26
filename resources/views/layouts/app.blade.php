@@ -37,17 +37,7 @@
     <x-banner />
     <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
         <!-- Page Heading -->
-        <header class="bg-white shadow dark:bg-white sm:flex sm:h-16 sm:columns-2">
-            <!-- Logo -->
-            <div class="flex-row shrink-0 align-items-lg-start">
-                <a href="{{ route('dashboard') }}">
-                    <x-application-mark class="block w-2 h-9" />
-                </a>
-            </div>
-            <div class="flex flex-row px-4 py-6 max-w-1xl sm:px-6 lg:px-8 md:text-center">
-                <x-app-name />
-            </div>
-        </header>
+        <x-header />
         @livewire('navigation-menu')
         <!-- Page Content -->
         <main>
@@ -55,6 +45,7 @@
         </main>
     </div>
     @stack('modals')
+
 </body>
 
 </html>

@@ -11,11 +11,11 @@ services:
       - 'host.docker.internal:host-gateway'
     ports:
       - target: 80
-        published: ${FORWARD_APP_PORT:-8001}
+        published: ${APP_PORT:-8000}
         protocol: tcp
         mode: host
       - target: 5173
-        published: ${VITE_PORT:-5174}
+        published: ${VITE_PORT:-5173}
         protocol: tcp
         mode: host
     environment:
