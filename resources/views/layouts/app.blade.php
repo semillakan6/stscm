@@ -14,6 +14,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('assets/css/select2.css') }}" />
+
 
     <!-- Scripts -->
     <link href="https://cdn.datatables.net/2.0.8/css/dataTables.tailwindcss.css" rel="stylesheet" />
@@ -25,6 +27,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.js"></script>
+    <script src="{{ asset('assets/js/select2.js') }}"></script>
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireScripts
     @stack('scripts')

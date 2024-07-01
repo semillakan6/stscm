@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Dependencies;
 
-class DynamicSelect extends Component
+class DinamicSelect extends Component
 {
     public $collectionName;
     public $required;
@@ -20,9 +20,9 @@ class DynamicSelect extends Component
 
 
     /*
-    * Create a new component instance.
-    */
-    public function __construct($collectionName, $selectName, $fields, $col, $id, $class, $useOptgroups = false, $optgroupField = null, $optionsArrayName = null, $optionValueField = null, $optionDisplayField = null, $required=null, $multiSelect=false) // Added $optionValueField = null, $optionDisplayField = null
+     * Create a new component instance.
+     */
+    public function __construct($collectionName, $selectName, $fields, $col, $id, $class, $useOptgroups = false, $optgroupField = null, $optionsArrayName = null, $optionValueField = null, $optionDisplayField = null, $required = null, $multiSelect = false)
     {
         $this->collectionName = $collectionName;
         $this->selectName = $selectName;
@@ -48,7 +48,7 @@ class DynamicSelect extends Component
      */
     public function render()
     {
-        return view('components.dynamic-select', [
+        return view('components.dinamic-select', [
             'selectName' => $this->selectName,
             'collection' => $this->collection,
             'col' => $this->col,
@@ -56,7 +56,7 @@ class DynamicSelect extends Component
             'useOptgroups' => $this->useOptgroups,
             'optgroupField' => $this->optgroupField,
             'optionsArrayName' => $this->optionsArrayName,
-            'required'=> $this->required,
+            'required' => $this->required,
             'multiSelect' => $this->multiSelect,
         ]);
     }

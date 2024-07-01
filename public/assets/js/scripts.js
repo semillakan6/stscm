@@ -1,10 +1,5 @@
 $(document).ready(function () {
     $(".select2").select2();
-    $(".fancybox").fancybox();
-    $(".fancybox_images").fancybox({
-        'titlePosition'  : 'over',
-        'type': "image",
-    })
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -346,5 +341,53 @@ function dynamicAceptFuncDinamicResponses(url, data, modal_info) {
                 },
             });
         }
+    });
+}
+
+function createModalButton(dataId="", btntext, btnicon, colorButton, route = "default_route/", ModalTitle =
+"Modal dinamico", isform = true) {
+// Correctly format the onclick function call with parameters as strings
+return `
+<button type="button" class="btn btn-${colorButton}" onclick="OpenModals('${route}', ${isform}, '${ModalTitle}', '${dataId}')">
+<i class="${btnicon} btnText"></i>
+<div class="btnTwo">
+<p class="btnText2">${btntext}</p>
+</div>
+</button>`;
+}
+
+
+function OpenModals(route,isform,ModalTitle,id) {
+    let url='';
+    if(id !=''){
+        url = route + id;
+    }else{
+        url=route;
+    }
+
+
+
+    $.get(url, function(formContent) {
+        showModalApp({
+            title: ModalTitle,
+            content: formContent,
+            width: 1500
+        });
+    });
+}
+function showModalApp(data, callback) {
+    Swal.fire({
+        title: data.title,
+        html: data.content,
+        width: data.width || 600,
+        padding: data.padding || "3em",
+        background: data.background || "#fff",
+        showConfirmButton: data.confirm||false,
+        showCloseButton: data.close||false,
+        allowOutsideClick: data.outside === undefined ? true : data.outside,
+        allowEscapeKey: data.escape === undefined ? true : data.escape,
+        didOpen: () => {
+
+        },
     });
 }

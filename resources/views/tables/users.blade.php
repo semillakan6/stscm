@@ -74,13 +74,13 @@
                                         </div>
                                     </div>
                                     <div class="pt-1 col-md-6 ">
-                                        <x-dynamic-select :class="'form-select form-select-sm w-full border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm'" :selectName="'Rol*'" :col="'col-md-12'"
+                                        <x-dinamic-select :class="'form-select form-select-sm w-full border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm'" :selectName="'Rol*'" :col="'col-md-12'"
                                             :fields="['name']" :collectionName="'Role'" :useOptgroups="false" id="rol"
                                             optionsArrayName="" optionValueField="" optionDisplayField="" />
                                     </div>
 
                                     <div class="pt-1 col-md-6 ">
-                                        <x-dynamic-select :class="'form-select form-select-sm w-full border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm'" :selectName="'Dependencia*'" :col="'col-md-12'"
+                                        <x-dinamic-select :class="'form-select form-select-sm w-full border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm'" :selectName="'Dependencia*'" :col="'col-md-12'"
                                             :fields="['name']" :collectionName="'Dependencies'" :useOptgroups="true" id="area"
                                             optgroupField="name" optionsArrayName="areas" optionValueField="_id"
                                             optionDisplayField="area_name" />

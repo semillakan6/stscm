@@ -14,6 +14,8 @@ export default defineConfig({
                 'app/Livewire/**',
                 'resources/sass/**',
                 'resources/js/**',
+                'public/assets/js/**',
+                'public/assets/css/**',
             ],
         }),
     ],

@@ -11,11 +11,11 @@ class UsersSystem extends Component
     public function mount()
     {
         $this->dispatch('render_users');
-
     }
+
     public function render()
     {
-        return view('livewire.users-system');
+        return view('tables.users-system');
 
     }
 
@@ -34,4 +34,5 @@ class UsersSystem extends Component
         }
 
     }
+
 }
