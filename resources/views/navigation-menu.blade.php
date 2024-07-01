@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="navbar bg-base-100 z-[1]">
+<nav x-data="{ open: false }" class="navbar bg-base-100 z-[1] shadow-md">
     <!-- Primary Navigation Menu -->
     <div class="navbar-start">
         <div class="dropdown">
