@@ -1,10 +1,10 @@
 <div class="{{ $col }}">
     <div class="form-group">
-        <label for="{{ $id }}" class="form-label">{{ $selectName }}</label>
-
-        <div class="col-sm-12">
-            <select class="select2 js-states {{ $class }}" id="{{ $id }}" name="{{ $multiSelect ? $id.'[]' : $id }}"
-            wire:model="{{ $id }}" wire:change="{{ $id }}" {{ $required }} data-multiple="{{ $multiSelect }}" {{ $multiSelect ? 'multiple=multiple' : '' }} data-placeholder="Seleccione una opción...">
+        <div class="">
+            <select class="select2 js-states {{ $class }}" id="{{ $id }}"
+                name="{{ $multiSelect ? $id . '[]' : $id }}" wire:model="{{ $id }}"
+                wire:model.change="{{ $id }}" {{ $required }} data-multiple="{{ $multiSelect }}"
+                {{ $multiSelect ? 'multiple=multiple' : '' }} data-placeholder="Seleccione una opción...">
                 <option></option>
                 @if ($useOptgroups && $optgroupField && $optionsArrayName)
                     @foreach ($collection as $item)
@@ -13,7 +13,8 @@
                                 @if (isset($item[$optionsArrayName]) && is_array($item[$optionsArrayName]))
                                     @foreach ($item[$optionsArrayName] as $option)
                                         @if (isset($option[$optionValueField]) && isset($option[$optionDisplayField]))
-                                            <option value="{{ $option[$optionDisplayField] }}">{{ $option[$optionDisplayField] }}</option>
+                                            <option value="{{ $option[$optionDisplayField] }}">
+                                                {{ $option[$optionDisplayField] }}</option>
                                         @endif
                                     @endforeach
                                 @endif

@@ -23,6 +23,7 @@
         "@preline/collapse": "^2.3.0",
         "air-datepicker": "^3.5.3",
         "install": "^0.13.0",
-        "npm": "^10.8.1"
+        "npm": "^10.8.1",
+        "tom-select": "^2.3.1"
     }
 }

@@ -9,6 +9,7 @@ use App\Livewire\DependenciesController;
 use App\Livewire\DependenciesAreasController;
 use App\Livewire\LogsController;
 use App\Livewire\UsersSystem;
+use App\Livewire\UsersModals;
 
 /*
 |--------------------------------------------------------------------------
@@ -64,6 +65,7 @@ Route::middleware([
     Route::middleware(['auth', 'permission:users_system'])->group(function () {
         Route::get('/users_system', UsersSystem::class)->name('users_system');
         Route::get('/userstable', [UsersSystem::class, 'getUsersData'])->name('users_info');
+        Route::get('user_modal', UsersModals::class)->name('user_modal');
 
     });
     //Route::get('/users', [UsersController::class, 'index'])->name('users');

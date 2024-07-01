@@ -7,6 +7,7 @@ export default {
         './vendor/laravel/jetstream/**/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './public/assets/css/*.css',
         './node_modules/@preline/collapse/*.js'
     ],
 
