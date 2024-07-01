@@ -1,4 +1,4 @@
-<div>
+<div data-theme="light">
     <label class="form-control">
         <div class="label">
             <span class="label-text">Nombre Completo:</span>

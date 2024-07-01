@@ -1,7 +1,7 @@
 <div class="p-6">
     <div class="mx-auto " style="max-width: 90%;">
 
-        <div class="card w-100 bg-base-100 shadow-xl">
+        <div class="card w-100 bg-base-100 shadow-xl" data-theme="light">
 
             <div class="card-body grid grid-cols-4 gap-2 adduser">
 
@@ -96,6 +96,19 @@
                         // Modify the search input after DataTables initialization
                         const searchInput = document.getElementById('dt-search-0');
                         const selectInput = document.getElementById('dt-length-0');
+                        const elements = document.querySelectorAll('.pagination *');
+                        const classesToRemove = [
+                            'border-gray-200', 'active:border-gray-200', 'active:shadow-none',
+                            'dark:border-gray-700',
+                            'dark:active:border-gray-700', 'bg-white', 'dark:bg-gray-800',
+                            'text-gray-300', 'dark:text-gray-600'
+                        ];
+
+                        elements.forEach(element => {
+                            classesToRemove.forEach(cls => {
+                                element.classList.remove(cls);
+                            });
+                        });
 
                         // Check if the element exists before modifying it
                         if (searchInput) {
